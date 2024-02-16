@@ -1,0 +1,56 @@
+dateModified: 1708097029
+email:
+  fromEmail: tommylam121223@gmail.com
+  fromName: 'My Craft Project Ddev'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  hardDisk:
+    hasUrls: true
+    name: 'Hard Disk'
+    settings:
+      path: '@webroot/uploads/images'
+    type: craft\fs\Local
+    url: '@web/uploads/images'
+  uploads:
+    hasUrls: true
+    name: Uploads
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
+meta:
+  __names__:
+    4c0a3587-40bd-416f-bdf3-8cee61ee5231: 'Feature Image' # Feature Image
+    5cdd387b-7952-47f2-9eb2-c235585f8437: Test # Test
+    7b7a3985-c614-46aa-bf06-e0cf56063c87: Images # Images
+    8b72ff97-a8dc-43d1-acb6-f63ab013aca0: Topics # Topics
+    55d7e5da-1d49-458c-b32b-7f521da4c8a8: 'My Craft Project Ddev' # My Craft Project Ddev
+    81ddb2ca-39be-4c84-ae9d-d3b9cfaf9379: Blog # Blog
+    84bebe2e-abe6-4b2a-926a-6ce81adc8499: Common # Common
+    463a4faa-eedf-4fc2-91b5-1bebccfead4a: Home # Home
+    656c477a-2107-46b2-81c8-e796d814769d: 'My Craft Project Ddev' # My Craft Project Ddev
+    22046e3b-68aa-4225-9644-6b7ee617914b: 'Hero Image' # Hero Image
+    a051b981-643f-4d86-872d-c522648280b7: 'Hero Title' # Hero Title
+    affd83a9-1733-4bd2-b4df-4793174450c4: 'Home Page' # Home Page
+    b0c5a56e-b41d-4ef5-a1ae-38eada060099: Home # Home
+    ddb77590-4110-4f89-b1fe-29332be5df00: Uploads # Uploads
+    e8495063-a147-493c-b85e-06d95ed457f0: blog # blog
+    fd845ab1-4cd8-489a-b047-4ff59bc22b78: Summary # Summary
+    fe52fd0d-9e10-4b2d-af8d-b3c96c833605: Default # Default
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: 'My Craft Project Ddev'
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

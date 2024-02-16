@@ -1,0 +1,9 @@
+baseUrl: '@web/test'
+enabled: '1'
+handle: test
+hasUrls: true
+language: en-US
+name: Test
+primary: false
+siteGroup: 656c477a-2107-46b2-81c8-e796d814769d # My Craft Project Ddev
+sortOrder: 2

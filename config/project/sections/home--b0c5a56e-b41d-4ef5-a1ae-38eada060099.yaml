@@ -1,0 +1,17 @@
+defaultPlacement: end
+enableVersioning: true
+handle: home
+name: Home
+propagationMethod: all
+siteSettings:
+  5cdd387b-7952-47f2-9eb2-c235585f8437: # Test
+    enabledByDefault: true
+    hasUrls: true
+    template: home/_entry
+    uriFormat: home
+  55d7e5da-1d49-458c-b32b-7f521da4c8a8: # My Craft Project Ddev
+    enabledByDefault: true
+    hasUrls: true
+    template: home
+    uriFormat: __home__
+type: single

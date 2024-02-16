@@ -1,0 +1,19 @@
+columnSuffix: znzxkxam
+contentColumnType: text
+fieldGroup: affd83a9-1733-4bd2-b4df-4793174450c4 # Home Page
+handle: heroTitle
+instructions: null
+name: 'Hero Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
